@@ -22,19 +22,6 @@ public class ScannerTest {
 			
 		}
 		System.out.println("从小到大：" + num1 + "  , " + num2);
-		if(num1 < num3) {
-			if(num2 < num3 ) {
-				
-			}else {
-				a = num3;
-				num3 = num2;
-				num2 = a;
-			}
-		}else {
-			a = num1;
-			num1 = num3;
-			num3 = a;
-		}
-		System.out.println("从小到大：" + num1 + "  , " + num2 + " , " + num3);
+		
 	}
 }
